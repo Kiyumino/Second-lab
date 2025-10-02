@@ -1,7 +1,6 @@
 import random
 
 def guess_number():
-    print("=== Игра 'Угадай число' ===")
     print("Я загадал число от 1 до 100. Попробуй угадать!")
     
     secret_number = random.randint(1, 100)
@@ -24,4 +23,5 @@ def guess_number():
             print("Пожалуйста, вводи только цифры!")
 
 if __name__ == "__main__":
+
     guess_number()
