@@ -1,5 +1,7 @@
 num1 = float(input("Первое число: "))
+
 operator = input("Выбери оператор (+, -, *, /): ")
+
 num2 = float(input("Второе число: "))
 
 if operator == '+':

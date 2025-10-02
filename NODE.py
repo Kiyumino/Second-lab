@@ -1,6 +1,6 @@
 import math
 
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
 
-print(math.gcd(a, b))
+print(math.gcd(num1, num2))
