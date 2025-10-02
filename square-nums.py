@@ -7,7 +7,8 @@ def square(n):
 
     return result
 
-a = int(input("Введите число: "))
-res = square(a)
+num = int(input("Введите число: "))
+result = square(a)
 
-print(res)
+
+print(result)
